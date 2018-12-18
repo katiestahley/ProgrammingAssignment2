@@ -13,7 +13,7 @@
         }
         
         get <- function() x
-        setinverse <- function(mean) m <<- mean
+        setinverse <- function(matix.inverse) m <<- matrix.inverse
         getinverse <- function() m
         list(set = set, get = get,
              setinverse = setinverse,
